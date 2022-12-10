@@ -11,7 +11,7 @@ export async function sendMessage(req, res) {
     await axios.post(URI, {
       chat_id: "-1001577546710",
       parse_mode: "html",
-      text: `<b>НОВОЕ СООБЩЕНИЕ</b>\nОтправитель: <b>${name}</b>\nTelegram: <b>${user}</b>\nПочта: <b>${email}</b>\nНомер телефона: <b>${phone}</b>`,
+      text: `<b>НОВОЕ СООБЩЕНИЕ</b>\nОтправитель: <b>${name}</b>\nTelegram: <b>${user}</b>\nПочта: <b>${email}</b>\nНомер телефона: <b>${phone}</b>\nСообщение: <b>${message}</b>`,
     });
 
     return res.json({
