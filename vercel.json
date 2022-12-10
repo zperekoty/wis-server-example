@@ -1,6 +1,4 @@
 {
-  "buildCommand": "yarn build:prod",
-  "outputDirectory": "dist",
   "version": 2,
   "builds": [
     {
