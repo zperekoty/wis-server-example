@@ -1,4 +1,5 @@
 {
+  "buildCommand": "yarn build:prod",
   "version": 2,
   "builds": [
     {
