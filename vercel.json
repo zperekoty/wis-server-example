@@ -4,14 +4,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "main.js",
+      "src": "**/main.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "main.js"
+      "dest": "**/main.js"
     }
   ]
 }
